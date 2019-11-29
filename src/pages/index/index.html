@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  ${require('html-loader!@/includes/meta.html')}
+  <title>圈子分享</title>
+</head>
+
+<body style="display: none;">
+  <div id="root">
+    <div class="nav-top">
+      <img src="${require('./img/top-nav.png')}" alt="">
+      <a class="btn download-app-btn"></a>
+    </div>
+    <div id="main">
+      <div class="header">
+        <div class="bg"
+          style="background-image: url(https://imgmini.eastday.com/pushimg/20190923/641x599_1569194996388630_mwpm_03200403.jpg)">
+        </div>
+        <div class="panel">
+          <img id="shareImgUrl" class="avatar"
+            src="https://imgmini.eastday.com/pushimg/20190923/641x599_1569194996388630_mwpm_03200403.jpg" alt="">
+          <div class="text-box">
+            <p id="shareTitle" class="name">化工圈</p>
+            <p>1234个人脉</p>
+            <p id="shareDesc">年轻的化工人请进，化工人请进欢迎交流咨询经验当时就发上来大家商量</p>
+          </div>
+          <a class="btn">设置</a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="msg-title">
+          <p>16人申请加入圈子</p>
+          <a href="javascript:;"><span>查看详情</span><img src="${require('./img/yellow-right.png')}" alt=""></a>
+        </div>
+        <ul class="msg-list">
+          <li><span>置顶</span>化工专业领域社群，第一时间发布行业动态，互事件发生了巨大</li>
+          <li><span>置顶</span>此圈为涂料化工社群，非专业领域请勿加入</li>
+          <li><span>置顶</span>进群要修改备注，禁止频繁发广告。</li>
+        </ul>
+        <div class="tabs">
+          <ul class="tabs-nav">
+            <li class="is-active">动态</li>
+            <li>人脉</li>
+          </ul>
+          <ul class="tabs-content">
+            <li class="is-active">
+              <ul class="activity-list">
+                <li>
+                  <div class="avatar-imgs">
+                    <div class="avatar">
+                      <img src="https://imgmini.eastday.com/pushimg/20190923/641x599_1569194996388630_mwpm_03200403.jpg"
+                        alt="">
+                      <i class="icon-vip"></i>
+                    </div>
+                    <p>圈主</p>
+                  </div>
+                  <div class="avatar-details">
+                    <p class="title">
+                      <span class="name">王海龙</span>
+                      <span class="tag blue">贸易</span>
+                      <span class="tag gray">好友</span>
+                      <i class="icon-ellipsis"></i>
+                    </p>
+                    <p class="desc">经理 | 乙醇（上海）科技有限公司</p>
+                  </div>
+                  <div class="article-details">
+                    <p class="title">汇聚行业动态，化工业行业大本营。购买化工原材料，上摩贝现货商城。</p>
+                    <a class="link-box">
+                      <img src="${require('./img/article.png')}" alt="">
+                      <p>汇聚行业动态，化工业行业大本营。购买化工原材料，上摩贝现货商城。</p>
+                    </a>
+                    <div class="publish-desc">
+                      <span>2小时前</span>
+                      <a class="delete" href="javascript:;">删除</a>
+                      <i class="icon-list"></i>
+                    </div>
+                    <div class="like-details">
+                      <i class="icon-like"></i>
+                      <span>王大治，李高飞，王大治，李高飞，王大治，李高飞，王大治，李高飞</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="avatar-imgs">
+                    <div class="avatar">
+                      <img src="https://imgmini.eastday.com/pushimg/20190923/641x599_1569194996388630_mwpm_03200403.jpg"
+                        alt="">
+                      <i class="icon-vip"></i>
+                    </div>
+                    <p>圈主</p>
+                  </div>
+                  <div class="avatar-details">
+                    <p class="title">
+                      <span class="name">王海龙</span>
+                      <span class="tag blue">贸易</span>
+                      <span class="tag gray">好友</span>
+                      <i class="icon-ellipsis"></i>
+                    </p>
+                    <p class="desc">经理 | 乙醇（上海）科技有限公司</p>
+                  </div>
+                  <div class="article-details">
+                    <p class="title">汇聚行业动态，化工业行业大本营。购买化工原材料，上摩贝现货商城。</p>
+                    <ul class="img-list">
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                    </ul>
+                    <div class="publish-desc">
+                      <span>2小时前</span>
+                      <a class="delete" href="javascript:;">删除</a>
+                      <i class="icon-list"></i>
+                    </div>
+                    <div class="like-details">
+                      <i class="icon-like"></i>
+                      <span>王大治，李高飞</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="avatar-imgs">
+                    <div class="avatar">
+                      <img src="https://imgmini.eastday.com/pushimg/20190923/641x599_1569194996388630_mwpm_03200403.jpg"
+                        alt="">
+                      <i class="icon-vip"></i>
+                    </div>
+                    <p>圈主</p>
+                  </div>
+                  <div class="avatar-details">
+                    <p class="title">
+                      <span class="name">王海龙</span>
+                      <span class="tag blue">贸易</span>
+                      <span class="tag gray">好友</span>
+                      <i class="icon-ellipsis"></i>
+                    </p>
+                    <p class="desc">经理 | 乙醇（上海）科技有限公司</p>
+                  </div>
+                  <div class="article-details">
+                    <p class="title">汇聚行业动态，化工业行业大本营。购买化工原材料，上摩贝现货商城。</p>
+                    <ul class="img-list multiple-list">
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                    </ul>
+                    <div class="publish-desc">
+                      <span>2小时前</span>
+                      <a class="delete" href="javascript:;">删除</a>
+                      <i class="icon-list"></i>
+                    </div>
+                    <div class="like-details">
+                      <i class="icon-like"></i>
+                      <span>王大治，李高飞</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="avatar-imgs">
+                    <div class="avatar">
+                      <img src="https://imgmini.eastday.com/pushimg/20190923/641x599_1569194996388630_mwpm_03200403.jpg"
+                        alt="">
+                      <i class="icon-vip"></i>
+                    </div>
+                    <p>圈主</p>
+                  </div>
+                  <div class="avatar-details">
+                    <p class="title">
+                      <span class="name">王海龙</span>
+                      <span class="tag blue">贸易</span>
+                      <span class="tag gray">好友</span>
+                      <i class="icon-ellipsis"></i>
+                    </p>
+                    <p class="desc">经理 | 乙醇（上海）科技有限公司</p>
+                  </div>
+                  <div class="article-details">
+                    <p class="title">汇聚行业动态，化工业行业大本营。购买化工原材料，上摩贝现货商城。</p>
+                    <ul class="img-list four-list">
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                      <li>
+                        <div><img src="${require('./img/article.png')}" alt=""></div>
+                      </li>
+                    </ul>
+                    <div class="publish-desc">
+                      <span>2小时前</span>
+                      <a class="delete" href="javascript:;">删除</a>
+                      <i class="icon-list"></i>
+                    </div>
+                    <div class="like-details">
+                      <i class="icon-like"></i>
+                      <span>王大治，李高飞</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="panel open-app-btn">
+        <img src="${require('./img/footer.png')}" alt="">
+      </div>
+    </div>
+    <!-- 弹框 -->
+    <div class="s-popup" id="download-popup">
+      <div class="s-popup-wrapper">
+        <div class="banner">
+          <img src="${require('./img/download-banner.png')}" alt="">
+        </div>
+        <p class="desc">想查看更多化工圈圈子详情<br />请前往下载化工圈APP</p>
+        <div class="btn-list">
+          <ul>
+            <li><a class="btn btn-plain-primary open-app-btn">打开App</a></li>
+            <li><a class="btn btn-primary download-app-btn">下载App</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 引导层弹框 -->
+    <div class="s-popup" id="guide-popup">
+      <div class="s-popup-wrapper" style="width: 100%;height:100%;background-color:#f7f7f7">
+        <img style="width: 100%" class="android" src="${require('./img/guid-android.jpg')}" alt="">
+        <img style="width: 100%" class="ios" src="${require('./img/guid-ios.jpg')}" alt="">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

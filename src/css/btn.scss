@@ -1,0 +1,63 @@
+.btn {
+  position: relative;
+  appearance: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  line-height: 1;
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  outline: none;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &::after {
+    border: 0;
+  }
+
+  &.btn-primary {
+    background: linear-gradient(to right, #3ea4ff, #556eff);
+    color: white;
+  }
+
+  &.btn-plain-primary {
+    background: rgba(248, 251, 255, 1);
+    border: 1px solid rgba(161, 200, 255, 1);
+    color: #3D79FE;
+  }
+
+  &.btn-success {
+    background: linear-gradient(90deg, rgba(69, 199, 138, 1) 0%, rgba(119, 218, 171, 1) 100%);
+    color: white;
+  }
+
+  &.btn-yellow {
+    background: linear-gradient(90deg, rgba(243, 217, 159, 1) 0%, rgba(244, 190, 95, 1) 100%);
+    color: #643E1B;
+  }
+
+  &.btn-gray {
+    background: #F1F3F7;
+    color: #777777;
+  }
+
+  &.btn-disabled {
+    cursor: not-allowed;
+    background: #c9c9c9;
+    color: white;
+    border-color: #c9c9c9;
+  }
+
+  &.btn-block {
+    width: 100%;
+  }
+}
