@@ -1,6 +1,7 @@
 {
   "name": "sldt-vue-pages",
   "version": "1.0.0",
+  "description": "基于vue-cli 多页面html,使用jquery开发时的脚手架",
   "private": true,
   "scripts": {
     "start": "npm run dev",
